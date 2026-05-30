@@ -10,29 +10,15 @@ I developed an interest in systems programming during my PhD, and now I spend my
 
 I spent about 9 months on the [Nix](https://nixos.org) documentation team (if you've seen the documentation you'll understand why). I don't do that anymore, but I do still use Nix to configure all of my machines (yes, even my macOS laptop). You can see my Nix configurations here: [zmitchell/nixos-configs](https://github.com/zmitchell/nixos-configs). I'm the program chair for the [Nix conference](https://planetnix.com) that takes place in North America every year.
 
-## Work
+## Interests
 
-I work at [Flox](https://flox.dev) building something that's hard to do justice in a single sentence. I work on both the CLI and the backend server. The CLI is open source and can be found here: [flox/flox](https://github.com/flox/flox).
+I'm particularly interested in systems software of various kinds. I constantly have an itch to build tools that other developers can use because I see so many of our tools as suboptimal.
 
-Flox is a tool for creating reproducible "environments". If you use it during development, it's a developer environment. If you use it in CI, it's a CI environment. If you use it in production, it's a production environment. It's a way of getting the same set of software everywhere that you use it. macOS or Linux. x86_64 or Arm.
+Lately I've been on a build system kick. Nix gets close to what I want, but falls short on a few fronts. I ended up working at [Flox](https://flox.dev) for a few years, which is a big leap forward in user experience, but a step backwards in flexibility and interoperability.
 
-For developers, the idea is that onboarding to an existing project looks like this:
+If you want to be my best fried in the whole world, please write a tool for local code review that (1) doesn't suck, (2) is `jujutsu`-compatible, and (3) isn't written by vibe coders for vibe coders.
 
-```
-$ git clone
-$ flox activate
-```
-
-I truly believe it's the current local maximum for developer environments, bringing Nix-powered reproducibility together with an intuitive and familiar CLI.
-
-I can't help myself, so I've developed several tools and projects related to Flox:
-
-- **flox-debugger** - A "debugger" for the `flox activate` command
-  - [zmitchell/flox-debugger](https://github.com/zmitchell/flox-debugger)
-  - The `flox activate` command does the complex, heavy lifting of setting up a shell with a reproducible set of dependencies, carefully handled process parentage, etc. It's the magic that makes Flox work, and it's simultaneously the hardest part to get correct.
-- **release-flox (internal)** - The (internal) tool we use to cut and upload Flox CLI releases
-- **flox-ci (private)** - A proof of concept CI system based around Flox environments
-  - This uses `systemd-nspawn` containers and ZFS copy-on-write clones to make starting jobs substantially faster when there are jobs on a given host that use the same Flox environment.
+Most of my personal projects these days are written in Zig, but I'd like an excuse to use Gleam for something.
 
 ## Writing
 
