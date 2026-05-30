@@ -8,7 +8,7 @@ My background is physics, but that's not what I do anymore because lasers don't 
 
 I developed an interest in systems programming during my PhD, and now I spend my free time doing things like building eBPF-based profilers (like everyone else). I feel at home in Rust and Zig, but I spent several years knee-deep in Python. I have a healthy fear of C++, and C macros scare me a little bit. It's my professional opinion as a doctor that header files should be illegal.
 
-I spent about 9 months on the [Nix](https://nixos.org) documentation team (if you've seen the documentation you'll understand why). I don't do that anymore, but I do still use Nix to configure all of my machines (yes, even my macOS laptop). You can see my Nix configurations here: [zmitchell/nixos-configs](https://github.com/zmitchell/nixos-configs). I'm the program chair for the [Nix conference](https://planetnix.com) that takes place in North America every year.
+I spent about 9 months on the [Nix](https://nixos.org) documentation team (if you've seen the documentation you'll understand why). I don't do that anymore, but I do still use Nix to configure all of my machines (yes, even my macOS laptop). You can see my Nix configurations here: [zmitchell/nixos-configs](https://github.com/zmitchell/nixos-configs). For a few years I was the program chair for the [Planet Nix](https://planetnix.com) conference.
 
 ## Interests
 
